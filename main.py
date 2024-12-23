@@ -3,4 +3,19 @@
 # name = ['Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron']
 # print(name)
 
-print("hello world")
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+students = (list(students))
+students.sort()
+print(grades)
+print(students)
+print(grades, type(grades))
+print(students, type(students))
+
+rezultat = {}
+rezultat['Aaron'] = sum(grades[0])/len(grades[0])
+rezultat['Bilbo'] = sum(grades[1])/len(grades[1])
+rezultat['Johnny'] = sum(grades[2])/len(grades[2])
+rezultat['Khendrik'] = sum(grades[3])/len(grades[3])
+rezultat['Steve'] = sum(grades[4])/len(grades[4])
+print(rezultat)
